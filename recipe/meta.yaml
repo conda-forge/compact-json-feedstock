@@ -1,13 +1,13 @@
 {% set name = "compact-json" %}
-{% set version = "1.1.3" %}
+{% set version = "1.5.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/compact-json-{{ version }}.tar.gz
-  sha256: 099a0f1da2b35c9e4cccf1f2e59488c95983655855de9700017fcfdd2414a4de
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/compact_json-{{ version }}.tar.gz
+  sha256: 0965c4f3a3b85dbcdfd87032553123d969de1c75ebbe997d7e62490467d99649
 
 build:
   entry_points:
@@ -19,9 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - poetry-core
+    - python >=3.8,<4.0
   run:
-    - python >=3.8
+    - python >=3.8,<4.0
 
 test:
   imports:
