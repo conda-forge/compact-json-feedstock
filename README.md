@@ -1,11 +1,11 @@
-About compact-json
-==================
+About compact-json-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/compact-json-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/masaccio/compact-json
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/compact-json-feedstock/blob/main/LICENSE.txt)
 
 Summary: A JSON formatter that produces compact but human-readable
 

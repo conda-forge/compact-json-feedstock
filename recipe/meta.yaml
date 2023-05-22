@@ -1,5 +1,5 @@
 {% set name = "compact-json" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/compact_json-{{ version }}.tar.gz
-  sha256: 0965c4f3a3b85dbcdfd87032553123d969de1c75ebbe997d7e62490467d99649
+  sha256: f981a149c4c1b874aa0204368fbeacec698d32ae3a93f016973e9f8ab8a85c59
 
 build:
   entry_points:
