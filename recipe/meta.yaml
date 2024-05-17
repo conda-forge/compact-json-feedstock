@@ -22,7 +22,7 @@ requirements:
     - poetry-core
     - python >=3.9,<4.0
   run:
-    - wcwidth >=0.2.5,<=0.2.8
+    - wcwidth >0.2.8
     - python >=3.9,<4.0
     - setuptools >=69.0.3
     - importlib-resources >=6.1
