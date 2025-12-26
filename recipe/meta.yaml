@@ -1,5 +1,5 @@
 {% set name = "compact-json" %}
-{% set version = "1.8.1" %}
+{% set version = "1.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/compact_json-{{ version }}.tar.gz
-  sha256: 1dfcd53a05e27725fd73d694028c6d9a4b5e7fe8586d0980d0f7d5b5672ee144
+  sha256: dc200148695be04b91ac45cd3cda531aa017fb25609b66b9961a008db25eae77
 
 build:
   entry_points:
     - compact-json=compact_json._compact_json:main
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
